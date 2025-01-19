@@ -1,6 +1,6 @@
 
 <a href="https://instagram.com/sreeraj_vr">
-  <img src="https://i.pinimg.com/originals/38/7e/4f/387e4f52081bfebd6ba96d9d784e9f94.gif" alt="Sreeraj's GitHub Banner" width="1920" aglin="center">
+  <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" alt="Sreeraj's GitHub Banner" width="1280" aglin="center">
 </a>
 
 
@@ -11,19 +11,19 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=cyberkutti-iedc" alt="cyberkutti-iedc" /></a> </p>
 
-- 🔭 I’m currently working on [Unilod & SnailDB](#)
+- 🔭 I’m currently working on [Niti & Caria](#)
 
-- 🌱 I’m currently learning **ML,Rust,Arm,And Cool Frame Works**
+- 🌱 I’m currently learning **ML,Rust,Arm,ESP**
 
 - 👨‍💻 All of my projects are available at [https://bento.me/SREERAJVRAJESH](https://bento.me/SREERAJVRAJESH)
 
-- 💬 Ask me about **React JS,Native,Flutter,Electronics Matters**
+- 💬 Ask me about **Rust,Native,Embedded,Tensor Flow**
 
 - 📫 How to reach me **cyberkutti@gmail.com**
 
 - ⚡ Fun fact **Thinking Positively**
 <a href="https://instagram.com/sreeraj_vr">
-  <img src="https://i.pinimg.com/originals/91/90/8a/91908ad2f9aef293ed840739a291e9db.gif" alt="Sreeraj's Coding" width="320" aglin="right">
+  <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" alt="Sreeraj's Coding" width="320" aglin="right">
 </a>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
