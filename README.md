@@ -5,7 +5,7 @@
 
 
 <h1 align="center">Hi 👋, I'm SREERAJ V RAJESH</h1>
-<h3 align="center">I Am Electronics Hardware Designer With Embedded Programming and Software Developer</h3>
+<h3 align="center">I Am AI Embedded Engineer </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=cyberkutti-iedc&label=Profile%20views&color=0e75b6&style=flat" alt="cyberkutti-iedc" /> </p>
 
