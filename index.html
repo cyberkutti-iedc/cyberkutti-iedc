@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Brick Breaker · Ecocee · Sreeraj V Rajesh</title>
+<meta name="description" content="Play Brick Breaker — built by Sreeraj V Rajesh, CEO of Ecocee. Compete for the top spot on the leaderboard!"/>
+<meta property="og:title" content="Brick Breaker · Ecocee"/>
+<meta property="og:description" content="Play Brick Breaker on Sreeraj's GitHub profile. Beat the leaderboard!"/>
+<meta property="og:image" content="https://ecocee.in/login-logo.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0b1520;font-family:'Space Grotesk',sans-serif;color:#f0f4f8;overflow-x:hidden}
+body{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;min-height:100vh;padding:20px 12px 40px}
+
+/* Nav */
+nav{width:100%;max-width:700px;display:flex;align-items:center;justify-content:space-between;padding:12px 0;margin-bottom:16px;border-bottom:1px solid rgba(244,132,95,0.15)}
+.nav-logo{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#f4845f;letter-spacing:2px;text-decoration:none}
+.nav-links{display:flex;gap:16px}
+.nav-links a{font-size:12px;color:#8fa3b8;text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:#f4845f}
+
+/* Game wrapper */
+#gb{width:100%;max-width:700px;background:#0d1b2a;border-radius:16px;overflow:hidden;border:1px solid rgba(244,132,95,0.2);box-shadow:0 0 40px rgba(244,132,95,0.08)}
+
+/* Header */
+#hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:#0a1420;border-bottom:1px solid rgba(244,132,95,0.2)}
+#hdr-left{display:flex;align-items:center;gap:10px}
+.dot{width:10px;height:10px;border-radius:50%}
+.dr{background:#e74c3c}.dy{background:#f39c12}.dg{background:#2ecc71}
+#gametitle{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#f4845f;letter-spacing:2px;text-transform:uppercase}
+#hud{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#8fa3b8}
+#hud span{color:#f4845f;font-weight:700}
+
+/* Arena */
+#arena{position:relative;width:100%;background:#0b1520}
+canvas{display:block;width:100%;cursor:none}
+
+/* Overlay */
+#overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:rgba(11,21,32,0.93);z-index:10}
+#overlay h2{font-family:'JetBrains Mono',monospace;font-size:24px;font-weight:700;color:#f4845f;letter-spacing:3px;text-align:center}
+#overlay p{font-size:13px;color:#8fa3b8;text-align:center;max-width:300px;line-height:1.7}
+.ov-input{background:#1a2d42;border:1px solid rgba(244,132,95,0.3);border-radius:8px;padding:11px 16px;font-size:13px;color:#f0f4f8;outline:none;width:240px;font-family:'JetBrains Mono',monospace}
+.ov-input:focus{border-color:#f4845f;box-shadow:0 0 0 3px rgba(244,132,95,0.1)}
+.ov-input::placeholder{color:#3d5468}
+.ov-btn{background:#f4845f;border:none;border-radius:8px;padding:12px 32px;font-size:13px;font-weight:700;color:#0b1520;cursor:pointer;letter-spacing:1px;font-family:'JetBrains Mono',monospace;transition:background .2s;text-transform:uppercase}
+.ov-btn:hover{background:#f7a07a}
+.ov-btn.ghost{background:transparent;border:1px solid rgba(244,132,95,0.3);color:#f4845f;padding:9px 20px;font-size:11px}
+.ov-btn.ghost:hover{background:rgba(244,132,95,0.1)}
+.controls-hint{font-size:11px;color:#3d5468;font-family:'JetBrains Mono',monospace;letter-spacing:.5px}
+
+/* Leaderboard */
+#lbpanel{background:#0d1b2a;border-top:1px solid rgba(244,132,95,0.15);padding:20px}
+#lb-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+#lb-header h3{font-family:'JetBrains Mono',monospace;font-size:11px;color:#f4845f;letter-spacing:2px;text-transform:uppercase}
+#lb-clear{font-size:10px;color:#3d5468;cursor:pointer;font-family:'JetBrains Mono',monospace;background:none;border:none;letter-spacing:.5px;transition:color .2s}
+#lb-clear:hover{color:#f4845f}
+#lblist{display:flex;flex-direction:column;gap:6px;max-height:220px;overflow-y:auto}
+#lblist::-webkit-scrollbar{width:4px}
+#lblist::-webkit-scrollbar-track{background:rgba(255,255,255,0.03)}
+#lblist::-webkit-scrollbar-thumb{background:rgba(244,132,95,0.3);border-radius:2px}
+.lbrow{display:flex;align-items:center;gap:10px;font-size:13px;padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);transition:border-color .2s}
+.lbrow.me{border-color:rgba(244,132,95,0.35);background:rgba(244,132,95,0.06)}
+.lbrank{width:28px;font-size:12px;font-family:'JetBrains Mono',monospace;color:#576a7d;font-weight:700;text-align:center;flex-shrink:0}
+.lbrank.gold{color:#f4845f}
+.lbavatar{width:28px;height:28px;border-radius:50%;border:1px solid rgba(244,132,95,0.2);background:#1a2d42;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#f4845f;flex-shrink:0;font-family:'JetBrains Mono',monospace;overflow:hidden}
+.lbavatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.lbname{flex:1;color:#c8d8ea;font-size:13px}
+.lbscore{color:#f4845f;font-weight:700;font-family:'JetBrains Mono',monospace;font-size:13px}
+.lblevel{font-size:10px;color:#576a7d;font-family:'JetBrains Mono',monospace}
+.lbtime{font-size:10px;color:#3d5468;font-family:'JetBrains Mono',monospace;white-space:nowrap}
+.lb-empty{font-size:12px;color:#576a7d;padding:12px;font-family:'JetBrains Mono',monospace;text-align:center}
+
+/* Footer */
+#footer{padding:14px 20px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10px;color:#3d5468;letter-spacing:1px;border-top:1px solid rgba(244,132,95,0.08)}
+#footer a{color:#f4845f;text-decoration:none}
+
+/* Page footer */
+.page-footer{width:100%;max-width:700px;margin-top:24px;text-align:center;font-size:12px;color:#3d5468;font-family:'JetBrains Mono',monospace;letter-spacing:.5px}
+.page-footer a{color:#8fa3b8;text-decoration:none;transition:color .2s}
+.page-footer a:hover{color:#f4845f}
+
+/* Mobile */
+@media(max-width:500px){
+  #overlay h2{font-size:18px}
+  .ov-input{width:90%}
+  #hud{gap:10px;font-size:11px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="https://github.com/cyberkutti-iedc">@sreerajvrajesh</a>
+  <div class="nav-links">
+    <a href="https://ecocee.in">ecocee.in</a>
+    <a href="https://linkedin.com/in/sreerajvrajesh">LinkedIn</a>
+    <a href="https://github.com/cyberkutti-iedc">GitHub</a>
+  </div>
+</nav>
+
+<div id="gb">
+  <div id="hdr">
+    <div id="hdr-left">
+      <div class="dot dr"></div><div class="dot dy"></div><div class="dot dg"></div>
+      <span id="gametitle">Ecocee · Brick Breaker</span>
+    </div>
+    <div id="hud">
+      SCORE&nbsp;<span id="sc">0</span>&nbsp;&nbsp;
+      LIVES&nbsp;<span id="lv">3</span>&nbsp;&nbsp;
+      LVL&nbsp;<span id="lv2">1</span>
+    </div>
+  </div>
+
+  <div id="arena">
+    <canvas id="c"></canvas>
+    <div id="overlay">
+      <h2 id="ov-title">BRICK BREAKER</h2>
+      <p id="ov-sub">Built by <strong style="color:#f4845f">Sreeraj V Rajesh</strong> · CEO, Ecocee<br/>Move mouse or swipe to control the robot paddle</p>
+      <input class="ov-input" id="gh-input" placeholder="Your GitHub username" maxlength="39" autocomplete="off" spellcheck="false"/>
+      <button class="ov-btn" id="ov-play">PLAY NOW</button>
+      <button class="ov-btn ghost" id="ov-lb">VIEW LEADERBOARD</button>
+      <div class="controls-hint">MOUSE / TOUCH · BEAT THE LEADERBOARD</div>
+    </div>
+  </div>
+
+  <div id="lbpanel">
+    <div id="lb-header">
+      <h3>🏆 Leaderboard</h3>
+      <button id="lb-clear">CLEAR MY SCORE</button>
+    </div>
+    <div id="lblist"></div>
+  </div>
+
+  <div id="footer">
+    SREERAJ V RAJESH · CEO, <a href="https://ecocee.in">ECOCEE</a> · ERNAKULAM, KERALA
+  </div>
+</div>
+
+<div class="page-footer">
+  <a href="https://github.com/cyberkutti-iedc">← Back to GitHub Profile</a>
+  &nbsp;·&nbsp;
+  <a href="https://ecocee.in">Visit Ecocee</a>
+</div>
+
+<script>
+const canvas=document.getElementById('c');
+const ctx=canvas.getContext('2d');
+const W=680,H=420;
+canvas.width=W;canvas.height=H;
+
+const overlay=document.getElementById('overlay');
+const ovTitle=document.getElementById('ov-title');
+const ovSub=document.getElementById('ov-sub');
+const scEl=document.getElementById('sc');
+const lvEl=document.getElementById('lv');
+const lv2El=document.getElementById('lv2');
+const lbList=document.getElementById('lblist');
+const ghInput=document.getElementById('gh-input');
+const ovPlay=document.getElementById('ov-play');
+const ovLb=document.getElementById('ov-lb');
+const lbClear=document.getElementById('lb-clear');
+
+const COLS=11,ROWS=5,BW=50,BH=16,BPAD=4;
+const BRICK_COLORS=['#f4845f','#e8633a','#c8d8ea','#7a9bb5','#f4a261'];
+
+let state='idle',score=0,lives=3,level=1,ghUser='',animId=null,mpos=W/2;
+let bx=W/2,by=H-60,bvx=3.8,bvy=-3.8;
+const PR={w:88,h:18,x:W/2-44};
+let bricks=[],particles=[];
+
+const LB_KEY='ecocee_bb_lb_v2';
+function loadLB(){try{return JSON.parse(localStorage.getItem(LB_KEY)||'[]')}catch{return[]}}
+function saveLB(d){try{localStorage.setItem(LB_KEY,JSON.stringify(d))}catch{}}
+
+function addScore(user,sc,lv){
+  const d=loadLB();
+  const ex=d.findIndex(r=>r.u.toLowerCase()===user.toLowerCase());
+  if(ex>=0){if(sc>d[ex].s){d[ex]={u:user,s:sc,lv,t:Date.now()}}}
+  else d.push({u:user,s:sc,lv,t:Date.now()});
+  d.sort((a,b)=>b.s-a.s);
+  saveLB(d.slice(0,10));
+  renderLB(user);
+}
+
+function getAvatar(username){
+  return`https://github.com/${username}.png?size=56`;
+}
+
+function renderLB(highlight){
+  const d=loadLB();
+  if(!d.length){
+    lbList.innerHTML='<div class="lb-empty">No scores yet — be the first to play!</div>';
+    return;
+  }
+  const medals=['🥇','🥈','🥉'];
+  lbList.innerHTML=d.map((r,i)=>{
+    const me=highlight&&r.u.toLowerCase()===highlight.toLowerCase();
+    const ago=Math.round((Date.now()-r.t)/60000);
+    const agoStr=ago<1?'just now':ago<60?`${ago}m ago`:ago<1440?`${Math.round(ago/60)}h ago`:`${Math.round(ago/1440)}d ago`;
+    const rank=i<3?`<span class="lbrank gold">${medals[i]}</span>`:`<span class="lbrank">${i+1}</span>`;
+    const avatar=`<div class="lbavatar"><img src="${getAvatar(r.u)}" alt="${r.u}" onerror="this.parentElement.textContent='${r.u.slice(0,2).toUpperCase()}'"/></div>`;
+    return`<div class="lbrow${me?' me':''}">${rank}${avatar}<span class="lbname">@${r.u}</span><span class="lblevel">LVL ${r.lv||1}</span><span class="lbscore">${r.s.toLocaleString()}</span><span class="lbtime">${agoStr}</span></div>`;
+  }).join('');
+}
+
+function makeBricks(){
+  bricks=[];
+  const totalW=COLS*(BW+BPAD)-BPAD;
+  const startX=(W-totalW)/2;
+  for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++){
+    const hp=level>=3&&r===0?3:level>=2&&r<=1?2:1;
+    bricks.push({x:startX+c*(BW+BPAD),y:r*(BH+BPAD)+48,w:BW,h:BH,hp,maxHp:hp,color:BRICK_COLORS[r%BRICK_COLORS.length],alive:true});
+  }
+}
+
+function resetBall(newGame){
+  if(newGame){score=0;lives=3;level=1;}
+  const spd=3.5+level*0.45;
+  bx=W/2;by=H-80;
+  bvx=spd*(Math.random()>0.5?1:-1);bvy=-spd;
+  PR.x=W/2-PR.w/2;
+  scEl.textContent=score;lvEl.textContent=lives;lv2El.textContent=level;
+}
+
+function spawnParticles(x,y,color){
+  for(let i=0;i<10;i++){
+    const a=Math.random()*Math.PI*2,spd=1.5+Math.random()*3.5;
+    particles.push({x,y,vx:Math.cos(a)*spd,vy:Math.sin(a)*spd,life:1,r:2+Math.random()*2,color});
+  }
+}
+
+function drawBG(){
+  ctx.fillStyle='#0b1520';ctx.fillRect(0,0,W,H);
+  ctx.strokeStyle='rgba(244,132,95,0.04)';ctx.lineWidth=1;
+  for(let x=0;x<=W;x+=44){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();}
+  for(let y=0;y<=H;y+=44){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();}
+  ctx.strokeStyle='rgba(244,132,95,0.08)';ctx.lineWidth=1;
+  ctx.strokeRect(1,1,W-2,H-2);
+}
+
+function drawBall(){
+  ctx.save();
+  ctx.shadowColor='rgba(244,132,95,0.7)';ctx.shadowBlur=14;
+  ctx.beginPath();ctx.arc(bx,by,7,0,Math.PI*2);
+  ctx.fillStyle='#f4845f';ctx.fill();
+  ctx.restore();
+  ctx.beginPath();ctx.arc(bx-2,by-2,2.5,0,Math.PI*2);
+  ctx.fillStyle='rgba(255,255,255,0.55)';ctx.fill();
+}
+
+function drawPaddle(){
+  const py=H-PR.h-10;
+  ctx.save();
+  ctx.shadowColor='rgba(244,132,95,0.25)';ctx.shadowBlur=10;
+  ctx.fillStyle='#1a2d42';ctx.strokeStyle='#f4845f';ctx.lineWidth=1.5;
+  ctx.beginPath();ctx.roundRect(PR.x,py,PR.w,PR.h,6);ctx.fill();ctx.stroke();
+  ctx.restore();
+  const ew=13,eh=10;
+  [[PR.x+14,py+PR.h/2-eh/2],[PR.x+PR.w-14-ew,py+PR.h/2-eh/2]].forEach(([ex,ey])=>{
+    ctx.fillStyle='#0b1520';ctx.beginPath();ctx.roundRect(ex,ey,ew,eh,2);ctx.fill();
+    ctx.fillStyle='#f4845f';ctx.beginPath();ctx.arc(ex+ew/2,ey+eh/2,3.5,0,Math.PI*2);ctx.fill();
+    ctx.fillStyle='rgba(255,255,255,0.8)';ctx.beginPath();ctx.arc(ex+ew/2-1,ey+eh/2-1.5,1.2,0,Math.PI*2);ctx.fill();
+  });
+  ctx.fillStyle='rgba(200,216,234,0.35)';
+  ctx.beginPath();ctx.roundRect(PR.x+PR.w/2-14,py+PR.h-5,28,3,1);ctx.fill();
+}
+
+function drawBricks(){
+  bricks.forEach(b=>{
+    if(!b.alive)return;
+    const frac=b.hp/b.maxHp;
+    ctx.save();
+    ctx.fillStyle=b.maxHp>1?(frac===1?'#e8d5c0':frac>=0.5?'#d4b896':'#b08060'):b.color;
+    ctx.strokeStyle=b.maxHp>1?'rgba(244,132,95,0.6)':'rgba(255,255,255,0.12)';
+    ctx.lineWidth=b.maxHp>1?1.5:0.5;
+    if(b.maxHp>1){ctx.shadowColor='rgba(244,132,95,0.3)';ctx.shadowBlur=4;}
+    ctx.beginPath();ctx.roundRect(b.x,b.y,b.w,b.h,3);ctx.fill();ctx.stroke();
+    if(b.maxHp>1){
+      ctx.fillStyle='#0b1520';ctx.font='bold 9px JetBrains Mono,monospace';
+      ctx.textAlign='center';ctx.textBaseline='middle';
+      ctx.fillText(b.hp,b.x+b.w/2,b.y+b.h/2);
+    }
+    ctx.restore();
+  });
+}
+
+function drawParticles(){
+  particles.forEach(p=>{
+    ctx.globalAlpha=p.life;
+    ctx.fillStyle=p.color;
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r*p.life,0,Math.PI*2);ctx.fill();
+  });
+  ctx.globalAlpha=1;
+}
+
+function drawScore(){
+  ctx.font='bold 11px JetBrains Mono,monospace';
+  ctx.fillStyle='rgba(244,132,95,0.25)';
+  ctx.textAlign='left';ctx.textBaseline='top';
+  ctx.fillText(`SCORE: ${score}  LIVES: ${lives}  LVL: ${level}`,10,8);
+}
+
+function movePaddle(){
+  const target=mpos-PR.w/2;
+  PR.x+=(target-PR.x)*0.16;
+  PR.x=Math.max(0,Math.min(W-PR.w,PR.x));
+}
+
+function update(){
+  bx+=bvx;by+=bvy;
+  if(bx<7){bx=7;bvx=Math.abs(bvx);}
+  if(bx>W-7){bx=W-7;bvx=-Math.abs(bvx);}
+  if(by<7){by=7;bvy=Math.abs(bvy);}
+  const py=H-PR.h-10;
+  if(bvy>0&&by+7>=py&&by-7<=py+PR.h&&bx>=PR.x-2&&bx<=PR.x+PR.w+2){
+    bvy=-Math.abs(bvy);
+    const rel=(bx-(PR.x+PR.w/2))/(PR.w/2);
+    bvx=rel*6;
+    const spd=Math.sqrt(bvx*bvx+bvy*bvy);
+    const maxSpd=3.5+level*0.45+2;
+    if(spd>maxSpd){bvx=bvx/spd*maxSpd;bvy=bvy/spd*maxSpd;}
+  }
+  if(by>H+20){
+    lives--;lvEl.textContent=lives;
+    if(lives<=0){endGame();return;}
+    bx=W/2;by=H-80;
+    const spd=3.5+level*0.45;
+    bvx=spd*(Math.random()>0.5?1:-1);bvy=-spd;
+    return;
+  }
+  let allDead=true;
+  for(const b of bricks){
+    if(!b.alive)continue;
+    allDead=false;
+    if(bx+7>b.x&&bx-7<b.x+b.w&&by+7>b.y&&by-7<b.y+b.h){
+      b.hp--;
+      if(b.hp<=0){b.alive=true;b.alive=false;spawnParticles(b.x+b.w/2,b.y+b.h/2,b.color);score+=b.maxHp*10;scEl.textContent=score;}
+      else score+=5,scEl.textContent=score;
+      const overX=Math.min(bx+7-b.x,b.x+b.w-(bx-7));
+      const overY=Math.min(by+7-b.y,b.y+b.h-(by-7));
+      if(overX<overY)bvx*=-1;else bvy*=-1;
+      break;
+    }
+  }
+  if(allDead){
+    level++;lv2El.textContent=level;
+    const spd=3.5+level*0.5;
+    bvx=(spd+1)*(bvx>0?1:-1);bvy=-(spd+1);
+    makeBricks();
+  }
+  particles=particles.filter(p=>p.life>0);
+  particles.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.vy+=0.08;p.life-=0.05;p.vx*=0.98;});
+}
+
+function endGame(){
+  state='gameover';
+  cancelAnimationFrame(animId);
+  if(ghUser&&ghUser!=='anonymous')addScore(ghUser,score,level);
+  ovTitle.textContent='GAME OVER';
+  ovSub.innerHTML=`Final score: <span style="color:#f4845f;font-weight:700;font-size:22px">${score.toLocaleString()}</span><br/>Level reached: <span style="color:#f4845f">${level}</span>${ghUser&&ghUser!=='anonymous'?`<br/><span style="color:#576a7d;font-size:11px">Score saved for @${ghUser}</span>`:''}`;
+  ovPlay.textContent='PLAY AGAIN';
+  overlay.style.display='flex';
+  renderLB(ghUser);
+}
+
+function loop(){
+  drawBG();
+  movePaddle();
+  update();
+  drawBricks();
+  drawBall();
+  drawPaddle();
+  drawParticles();
+  drawScore();
+  animId=requestAnimationFrame(loop);
+}
+
+function startGame(){
+  const val=ghInput.value.trim();
+  ghUser=val||'anonymous';
+  overlay.style.display='none';
+  state='playing';
+  resetBall(true);
+  makeBricks();
+  loop();
+}
+
+ovPlay.addEventListener('click',()=>{
+  cancelAnimationFrame(animId);
+  const val=ghInput.value.trim();
+  if(val)ghUser=val;
+  overlay.style.display='none';
+  state='playing';
+  resetBall(true);
+  makeBricks();
+  loop();
+});
+
+ovLb.addEventListener('click',()=>renderLB(ghUser||''));
+
+lbClear.addEventListener('click',()=>{
+  if(!ghUser)return;
+  const d=loadLB().filter(r=>r.u.toLowerCase()!==ghUser.toLowerCase());
+  saveLB(d);renderLB('');
+});
+
+canvas.addEventListener('mousemove',e=>{
+  const r=canvas.getBoundingClientRect();
+  mpos=(e.clientX-r.left)*(W/r.width);
+});
+canvas.addEventListener('touchmove',e=>{
+  e.preventDefault();
+  const r=canvas.getBoundingClientRect();
+  mpos=(e.touches[0].clientX-r.left)*(W/r.width);
+},{passive:false});
+canvas.addEventListener('touchstart',e=>{
+  const r=canvas.getBoundingClientRect();
+  mpos=(e.touches[0].clientX-r.left)*(W/r.width);
+},{passive:true});
+
+ghInput.addEventListener('keydown',e=>{if(e.key==='Enter')ovPlay.click();});
+
+renderLB('');
+</script>
+</body>
+</html>
