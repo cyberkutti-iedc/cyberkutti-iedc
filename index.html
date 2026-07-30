@@ -291,7 +291,8 @@ function drawParticles(){
   particles.forEach(p=>{
     ctx.globalAlpha=p.life;
     ctx.fillStyle=p.color;
-    ctx.beginPath();ctx.arc(p.x,p.y,p.r*p.life,0,Math.PI*2);ctx.fill();
+    const radius=Math.max(0,p.r*p.life);
+    ctx.beginPath();ctx.arc(p.x,p.y,radius,0,Math.PI*2);ctx.fill();
   });
   ctx.globalAlpha=1;
 }
