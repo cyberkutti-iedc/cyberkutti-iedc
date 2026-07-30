@@ -1,58 +1,307 @@
+<!-- ████████████████████████████████████████ -->
+<!--         SREERAJ V RAJESH — README        -->
+<!-- ████████████████████████████████████████ -->
+
+<div align="center">
+
 <a href="https://instagram.com/sreeraj_vr">
-  <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" alt="Sreeraj's GitHub Banner" width="100%" align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="100%" alt="Sreeraj Banner"/>
 </a>
 
-<h1 align="center">Hi 👋, I'm SREERAJ V RAJESH</h1>
-<h3 align="center">AI Embedded Engineer | Hardware Designer | Tech Explorer</h3>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cyberkutti-iedc&label=Profile%20views&color=0e75b6&style=flat" alt="cyberkutti-iedc" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=cyberkutti-iedc&theme=gruvbox&margin-w=15" alt="Trophies" />
-  </a>
-</p>
+</div>
 
 ---
 
-### 🚀 About Me
+<!-- ── TYPING SVG BANNER ── -->
+<div align="center">
 
-- 🔭 Currently building: **Niti & Caria**
-- 🌱 Learning: **ML, Rust, ARM, ESP32**
-- 💬 Ask me about: **Rust, Embedded Systems, Native Dev, TensorFlow**
-- 👨‍💻 Projects Portfolio: [bento.me/sreerajvrajesh](https://bento.me/SREERAJVRAJESH)
-- 📫 Reach me at: **cyberkutti@gmail.com**
-- ⚡ Fun fact: *I stay positive no matter what.*
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=900&color=F4845F&background=0D1B2A00&center=true&vCenter=true&width=700&height=70&lines=CEO+%26+Founder+%C2%B7+Ecocee;AI+Embedded+Engineer;Agentic+Systems+Builder" alt="Typing SVG"/>
+
+</div>
 
 ---
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/cyber_kutti" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cyber_kutti" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/sreerajvrajesh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sreerajvrajesh" height="30" width="40" /></a>
-<a href="https://fb.com/sreerajvrajesh1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="sreerajvrajesh1" height="30" width="40" /></a>
-<a href="https://instagram.com/sreeraj_vr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sreeraj_vr" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/cyberkutti" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="cyberkutti" height="30" width="40" /></a>
-</p>
 
-# 💻 Tech Stack:
-![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Deno JS](https://img.shields.io/badge/deno%20js-000000?style=for-the-badge&logo=deno&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Esbuild](https://img.shields.io/badge/esbuild-%23FFCF00.svg?style=for-the-badge&logo=esbuild&logoColor=black) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![P5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Audition](https://img.shields.io/badge/Adobe%20Audition-9999FF.svg?style=for-the-badge&logo=Adobe%20Audition&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
+<!-- ── HERO SPLIT: Focused dev (left) + Relaxed coder (right) ── -->
+<div align="center">
 
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="200" align="center" valign="middle">
+  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="180" alt="AI Agent Coding"/>
+</td>
+<td align="center" valign="middle" style="padding: 0 24px;">
+
+<h1><code>> Sreeraj V Rajesh</code></h1>
+
+<img src="https://komarev.com/ghpvc/?username=cyberkutti-iedc&label=Profile+Views&color=f4845f&style=flat-square" alt="Profile views"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Open%20to%20Collaborate-f4845f?style=flat-square&logo=handshake&logoColor=white" alt="Open to collaborate"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Ecocee-CEO%20%26%20Founder-0d1b2a?style=flat-square&logoColor=white" alt="Ecocee"/>
+
+</td>
+<td width="200" align="center" valign="middle">
+  <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="180" alt="Relaxed Coder"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<!-- ── ABOUT ME ── -->
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="240" alt="AI Agent"/>
+
+### 👋 About Me
+
+I build systems that **think**. Founder and CEO of **[Ecocee](https://ecocee.in)** — an AI and IoT startup based in Ernakulam, Kerala. I ship everything from bare-metal firmware to full-stack AI platforms.
+
+Currently deep in **embedded intelligence**, **agentic systems**, and real-world hardware that learns.
+
+- 🔭 &nbsp;Building: **Niti** and **Caria**
+- 🌱 &nbsp;Learning: **ML · Rust · ARM · ESP32**
+- 💬 &nbsp;Ask me about: **Rust · Embedded Systems · TensorFlow**
+- 👨‍💻 &nbsp;Portfolio: [bento.me/sreerajvrajesh](https://bento.me/SREERAJVRAJESH)
+- 📫 &nbsp;Reach me: **info@ecocee.in**
+- ⚡ &nbsp;Fun fact: *I stay positive no matter what — and I ship anyway.*
+
+<br clear="right"/>
+
+---
+
+<!-- ── COMPANY ── -->
+### 🏢 Company
+
+<table>
+  <tr>
+    <td width="200" align="center">
+  <img src="https://raw.githubusercontent.com/cyberkutti-iedc/cyberkutti-iedc/main/assets/images.jpeg" width="180" alt="Ecocee"/>
+</td>
+    <td>
+      <b>Ecocee</b> &nbsp;·&nbsp; <a href="https://ecocee.in">ecocee.in</a><br/>
+      MSME Registered &nbsp;·&nbsp; Ernakulam, Kerala, India &nbsp;·&nbsp; UDYAM-KL-13-0039296<br/><br/>
+      <img src="https://img.shields.io/badge/Embedded%20Systems-%230d1b2a?style=flat-square&logoColor=white"/>
+      <img src="https://img.shields.io/badge/IoT%20Solutions-%230d1b2a?style=flat-square&logoColor=white"/>
+      <img src="https://img.shields.io/badge/AI%20Platforms-%230d1b2a?style=flat-square&logoColor=white"/>
+      <img src="https://img.shields.io/badge/UAE%20%26%20India-%230d1b2a?style=flat-square&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- ── CURRENTLY BUILDING ── -->
+### 🎮 Play My Game
+
+<div align="center">
+
+[![Play Brick Breaker](https://img.shields.io/badge/🎮%20PLAY%20BRICK%20BREAKER-Beat%20the%20Leaderboard-f4845f?style=for-the-badge&labelColor=0d1b2a)](https://cyberkutti-iedc.github.io/cyberkutti-iedc/)
+
+> Built with vanilla JS · Robot paddle · GitHub username leaderboard · Mobile friendly
+
+</div>
+
+---
+
+### 🚀 Currently Building
+
+| Project | Description | Status |
+|:-------:|-------------|:------:|
+| **`NITI`** | Policy-aware AI agent framework for governance and structured decision-making | 🟠 Active |
+| **`CARIA`** | Intelligent vehicle assistant — embedded AI meets real-time automotive systems | 🟠 Active |
+
+---
+
+<!-- ── TECH STACK ── -->
+### 🛠 Tech Stack
+
+<details open>
+<summary><b>Languages</b></summary>
+<br/>
+
+![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>Embedded & Hardware</b></summary>
+<br/>
+
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![ARM](https://img.shields.io/badge/ARM-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![AssemblyScript](https://img.shields.io/badge/Assembly-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>AI / ML</b></summary>
+<br/>
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Cloud & DevOps</b></summary>
+<br/>
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Frontend & Mobile</b></summary>
+<br/>
+
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
+![Svelte](https://img.shields.io/badge/Svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>Databases</b></summary>
+<br/>
+
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+
+</details>
+
+---
+
+<!-- ── CURRENTLY LEARNING ── -->
+### 📚 Currently Learning
+
+<div align="center">
+
+![ML](https://img.shields.io/badge/Machine%20Learning-Deepening%20expertise-f4845f?style=flat-square)
+&nbsp;
+![Rust](https://img.shields.io/badge/Rust-Systems%20%26%20embedded-f4845f?style=flat-square)
+&nbsp;
+![ARM](https://img.shields.io/badge/ARM-Advanced%20firmware-f4845f?style=flat-square)
+&nbsp;
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-Building%20frameworks-f4845f?style=flat-square)
+
+</div>
+
+---
+
+<!-- ── GITHUB STATS ── -->
 ### 📊 GitHub Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberkutti-iedc&layout=compact&theme=radical" />
-</p>
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=cyberkutti-iedc&show_icons=true&theme=radical" />
-</p>
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cyberkutti-iedc&theme=radical" />
-</p>
+<div align="center">
+
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=cyberkutti-iedc&theme=tokyonight&hide_border=true&background=0d1b2a&ring=f4845f&fire=f4845f&currStreakLabel=f4845f&sideLabels=c8d8ea&dates=c8d8ea&sideNums=f4845f" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=cyberkutti-iedc&cache_seconds=1800&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1b2a&title_color=f4845f&icon_color=f4845f&text_color=c8d8ea" alt="GitHub Stats"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberkutti-iedc&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1b2a&title_color=f4845f&text_color=c8d8ea" alt="Top Languages"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=cyberkutti-iedc&theme=tokyonight&margin-w=12&margin-h=12&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
+
+</div>
 
 ---
 
-<a href="https://instagram.com/sreeraj_vr">
-  <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" alt="Sreeraj Coding" width="300" align="right">
+<!-- ── FUN FACT (relaxed coder vibe) ── -->
+### 💡 Fun Fact
+
+<img align="right" src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="200" alt="Relaxed coder"/>
+
+> *"I stay positive no matter what — and I ship anyway."*
+>
+> When I'm not writing firmware or training models, I'm thinking about how **embedded systems and AI** can change the physical world — not just the digital one.
+>
+> I believe the most powerful AI isn't in the cloud — it's in the **device in your hand, the car you drive, and the systems around you.**
+
+<br clear="right"/>
+
+---
+
+<!-- ── OPEN TO COLLABORATE ── -->
+### 🤝 Open to Collaborate
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Open%20to%20Collaborate-Embedded%20AI%20%7C%20IoT%20%7C%20Agentic%20Systems-f4845f?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to collaborate"/>
+
+<br/><br/>
+
+Got a project in the **embedded, AI, or IoT** space? Let's build something real.
+
+</div>
+
+---
+
+<!-- ── CONNECT ── -->
+### 🌐 Connect
+
+<div align="center">
+
+<a href="https://linkedin.com/in/sreerajvrajesh">
+  <img src="https://img.shields.io/badge/LinkedIn-Sreeraj%20V%20Rajesh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
+&nbsp;
+<a href="https://instagram.com/sreeraj_vr">
+  <img src="https://img.shields.io/badge/Instagram-@sreeraj__vr-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://twitter.com/cyber_kutti">
+  <img src="https://img.shields.io/badge/Twitter-@cyber__kutti-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:info@ecocee.in">
+  <img src="https://img.shields.io/badge/Email-info@ecocee.in-f4845f?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://ecocee.in">
+  <img src="https://img.shields.io/badge/Website-ecocee.in-0d1b2a?style=for-the-badge&logo=firefox&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://bento.me/SREERAJVRAJESH">
+  <img src="https://img.shields.io/badge/Portfolio-bento.me-f4845f?style=for-the-badge&logo=firefox&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=f4845f,0d1b2a&height=100&section=footer&text=Sreeraj%20V%20Rajesh&fontSize=20&fontColor=ffffff&fontAlignY=70&animation=fadeIn" alt="Footer wave"/>
+
+<sub>CEO, Ecocee &nbsp;·&nbsp; Ernakulam, Kerala, India &nbsp;·&nbsp; ecocee.in</sub>
+
+</div>
